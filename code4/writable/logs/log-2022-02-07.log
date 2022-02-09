@@ -1,0 +1,174 @@
+CRITICAL - 2022-02-07 07:19:43 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\SigninController.php(21): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\SigninController->loginAuth()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:23:49 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(10): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:25:26 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(10): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:26:58 --> Class 'App\Models\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(10): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:26:59 --> Class 'App\Models\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(10): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:33:50 --> Class 'CodeIgniter\Models' not found
+#0 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(10): spl_autoload_call('App\\Models\\User...')
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#6 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#7 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-07 07:35:51 --> Class 'App\Models\UsersModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:36:10 --> Class 'App\Models\UsersModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:36:45 --> Class 'App\Models\UsersModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:36:49 --> Class 'App\Models\UsersModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:38:43 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('5')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-07 07:40:57 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:41:37 --> Class 'App\Models\UsersModel' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->index()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-07 07:50:35 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('9')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-07 07:52:03 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('9')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-07 07:57:23 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('7')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-07 08:58:01 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('7')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-07 09:03:41 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\code4\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\code4\app\Controllers\UserCrud.php(35): view('edit_user', Array)
+#3 C:\xampp\htdocs\code4\system\CodeIgniter.php(825): App\Controllers\UserCrud->singleUser('11')
+#4 C:\xampp\htdocs\code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#5 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

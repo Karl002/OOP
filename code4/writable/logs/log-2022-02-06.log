@@ -1,0 +1,154 @@
+CRITICAL - 2022-02-06 00:07:27 --> Class 'Apps\Filters\AuthGuard' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('profile', 'before')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-06 00:27:10 --> Class 'Apps\Filters\AuthGuard' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('profile', 'before')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-06 00:35:27 --> Class 'app\Filters\AuthGuard' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('profile', 'before')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-06 00:36:32 --> Class 'app\Filters\AuthGuard' not found
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('profile', 'before')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-06 00:57:20 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:25 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:25 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:26 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 00:59:27 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 01:00:33 --> AuthGuard filter must have a matching alias defined.
+#0 C:\xampp\htdocs\code4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 07:37:44 --> Call to undefined function Config\get()
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(706): require()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 07:43:44 --> Call to undefined function Config\get()
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(706): require()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 07:44:04 --> Call to undefined function Config\get()
+#0 C:\xampp\htdocs\code4\system\CodeIgniter.php(706): require()
+#1 C:\xampp\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
